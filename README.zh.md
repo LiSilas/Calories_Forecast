@@ -2,9 +2,10 @@
 本项目基于 Kaggle 比赛 Predict Calorie Expenditure Playground Series - Season 5, Episode 5，使用 XGBoost、LightGBM、CatBoost 模型融合，搭建卡路里消耗预测模型。
 
 项目结构：
+
 calories_forecast/
 ├── output/
-│   ├── submission.csv
+│ └── submission.csv
 ├── calories_forecast.ipynb
 ├── README.md
 
