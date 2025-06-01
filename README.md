@@ -2,12 +2,13 @@ Project Overview:
 This project is based on the Kaggle competition [Predict Calorie Expenditure - Playground Series, Season 5 Episode 5]. It builds a calorie consumption prediction model using an ensemble of XGBoost, LightGBM, and CatBoost.
 
 Project Structure:
-
+```
 calories_forecast/  
 ├── output/  
 │   └── submission.csv  
 ├── calories_forecast.ipynb  
-├── README.md  
+├── README.md
+```
 
 Note:
 Since file paths on Kaggle are different from local ones, please update the file paths in calories_forecast.ipynb if you want to run it locally.
