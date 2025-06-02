@@ -16,13 +16,13 @@ Since file paths on Kaggle are different from local ones, please update the file
 **Due to copyright restrictions, the original dataset is not included. You can download it from the Kaggle competition page and extract it to the appropriate location.**
 
 Workflow:
-· 1.Load train.csv and test.csv, check dimensions, data types, and basic statistics.
-· 2.Encode the Gender feature using LabelEncoder().
-· 3.Visualize each feature's relationship with the target Calories, using scatter plots, heatmaps, box plots, and KDE plots to identify important features.
-· 4.Apply np.log1p() to the target variable to reduce skewness, and split the dataset using train_test_split.
-· 5.Perform hyperparameter tuning with GridSearchCV() for XGBoost, LightGBM, and CatBoost separately. Use RMSE as the evaluation metric.
-· 6.Based on validation results, use a reverse-optimization strategy to find the optimal weighted combination of the three models.
-· 7.Predict on the test set using the final ensemble model and revert the log-transformation to generate the final submission.
+- 1.Load train.csv and test.csv, check dimensions, data types, and basic statistics.
+- 2.Encode the Gender feature using LabelEncoder().
+- 3.Visualize each feature's relationship with the target Calories, using scatter plots, heatmaps, box plots, and KDE plots to identify important features.
+- 4.Apply np.log1p() to the target variable to reduce skewness, and split the dataset using train_test_split.
+- 5.Perform hyperparameter tuning with GridSearchCV() for XGBoost, LightGBM, and CatBoost separately. Use RMSE as the evaluation metric.
+- 6.Based on validation results, use a reverse-optimization strategy to find the optimal weighted combination of the three models.
+- 7.Predict on the test set using the final ensemble model and revert the log-transformation to generate the final submission.
 
 **The final submission before the deadline scored 0.05908. After optimizing the output using an ensemble prediction, the score improved to 0.05900. This version of the notebook has been updated to reflect the improved result.**
 
