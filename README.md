@@ -24,7 +24,7 @@ Workflow:
 6.Based on validation results, use a reverse-optimization strategy to find the optimal weighted combination of the three models.
 7.Predict on the test set using the final ensemble model and revert the log-transformation to generate the final submission.
 
-**The final submission before the deadline scored 0.05912. After optimizing the output using an ensemble prediction, the score improved to 0.05900. This version of the notebook has been updated to reflect the improved result.**
+**The final submission before the deadline scored 0.05908. After optimizing the output using an ensemble prediction, the score improved to 0.05900. This version of the notebook has been updated to reflect the improved result.**
 
 Summary:
 - Initially tried Random Forest and Linear Regression, but they performed poorly.
@@ -33,10 +33,10 @@ Summary:
 - Later experiments (e.g., adding features, Keras MLP) didn’t improve the score and were removed in the final version.
 
 Competition Results:
-- Submitted Ensemble Score: 0.05912
+- Submitted Ensemble Score: 0.05908
 - Optimized Ensemble Score: 0.05900
 - Rank: 1123 / 4316 (Top 27%)
-- Awards: 1 Bronze Medal, 18 Likes, 🍴 7 Forks
+- Awards: 1 Bronze Medal, 18 Likes, 7 Forks
 
 Project Link
 https://www.kaggle.com/code/nalanzuikano/calories-forecast
